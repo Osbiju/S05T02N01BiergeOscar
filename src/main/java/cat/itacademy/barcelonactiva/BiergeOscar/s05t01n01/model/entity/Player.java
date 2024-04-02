@@ -17,7 +17,7 @@ import java.util.Date;
 public class Player {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     @Column(name = "player_id")
     private Long id;
     @Column(name = "player_name")
